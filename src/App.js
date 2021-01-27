@@ -2,6 +2,13 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Tanks from './pages/Tanks';
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+  gtmId: 'GTM-5L7D3XR'
+};
+TagManager.initialize(tagManagerArgs);
+
 function App() {
   return (
     <Router>
