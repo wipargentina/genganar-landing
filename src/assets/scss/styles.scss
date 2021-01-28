@@ -1,0 +1,27 @@
+@import './custom';
+@import '~bootstrap';
+
+@import './components/hero';
+@import './components/benefits';
+@import './components/features';
+@import './components/testimonials';
+@import './components/form';
+@import './components/footer';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+section {
+  padding: 80px 0;
+  h2 {
+    margin-bottom: 50px;
+    color: $primary;
+    font-weight: 600;
+  }
+}

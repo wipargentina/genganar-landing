@@ -1,0 +1,16 @@
+.form {
+  background-color: $primary;
+  color: white;
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+  .cta {
+    padding: 12px 60px;
+    letter-spacing: 0.04rem;
+    //color: white;
+    font-weight: 600;
+  }
+}
