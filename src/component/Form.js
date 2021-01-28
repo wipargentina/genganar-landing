@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+// import { useHistory } from 'react-router-dom';
+
+// import axios from 'axios';
 
 class Form extends Component {
   constructor(props) {
@@ -69,11 +71,12 @@ class Form extends Component {
     //   });
 
     console.log(this.state);
+
     // window.location.assign(process.env.PUBLIC_URL + '/gracias');
   }
 
   render() {
-    const isSending = this.state.isSending;
+    // const isSending = this.state.isSending;
     return (
       <section className='form'>
         <div className='container'>
@@ -171,12 +174,30 @@ class Form extends Component {
                       >
                         Acepto las políticas de privacidad
                       </label>
+                      <div>
+                        <a
+                          href='https://www.genganar.com/genganar/politica-de-privacidad/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          ver políticas de privacidad
+                        </a>
+                      </div>
                     </div>
                   </div>
                   <div className='col-md-6'>
-                    <button className='btn btn-lg btn-secondary text-uppercase cta'>
-                      Enviar
-                    </button>
+                    {this.state.policy ? (
+                      <button className='btn btn-lg btn-secondary text-uppercase cta'>
+                        Enviar
+                      </button>
+                    ) : (
+                      <button
+                        className='btn btn-lg btn-secondary text-uppercase cta'
+                        disabled
+                      >
+                        Enviar
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
