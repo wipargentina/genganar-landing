@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <nav className='navbar navbar-dark bg-primary'>
       <div className='container'>
-        <Link className='navbar-brand mx-auto py-3' to='/'>
-          <img src={Logo} alt='' height='100' />
+        <Link className='navbar-brand mx-auto py-2 py-sm-3' to='/'>
+          <img src={Logo} alt='' />
         </Link>
       </div>
     </nav>

@@ -24,3 +24,23 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .benefits {
+    .card {
+      text-align: center;
+      margin-bottom: 30px;
+      .card-img-top {
+        width: 40%;
+        margin: auto;
+      }
+      .card-body {
+        height: auto;
+        .card-title {
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

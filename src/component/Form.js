@@ -158,7 +158,7 @@ class Form extends Component {
                   </div>
                 </div>
                 <div className='row'>
-                  <div className='col-md-6'>
+                  <div className='col-md-6 mb-4 mb-sm-0'>
                     <div className='custom-control custom-checkbox'>
                       <input
                         type='checkbox'
@@ -169,7 +169,7 @@ class Form extends Component {
                         checked={this.state.policy ? 'checked' : ''}
                       />
                       <label
-                        className='custom-control-label'
+                        className='custom-control-label mb-1'
                         htmlFor='customCheck1'
                       >
                         Acepto las políticas de privacidad

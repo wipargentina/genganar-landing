@@ -32,3 +32,26 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .hero {
+    padding: 60px 0;
+    .container {
+      h1 {
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 2rem;
+      }
+      .lead {
+        margin-bottom: 50px;
+        font-size: 1.3rem;
+      }
+      .cta {
+        padding: 12px 40px;
+        letter-spacing: 0.04rem;
+        //color: white;
+        font-weight: 600;
+      }
+    }
+  }
+}
