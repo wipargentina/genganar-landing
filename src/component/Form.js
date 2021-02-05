@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { useHistory } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 // import axios from 'axios';
 
@@ -16,7 +16,8 @@ class Form extends Component {
       policy: '',
       isSending: false,
       isSended: false,
-      isError: false
+      isError: false,
+      redirect: false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -39,7 +40,8 @@ class Form extends Component {
   handleSubmit(e) {
     e.preventDefault();
     this.setState({
-      isSending: true
+      isSending: true,
+      redirect: true // TODO: pasar bajo despues de la response 200
     });
 
     // axios
@@ -55,8 +57,10 @@ class Form extends Component {
     //         lname: '',
     //         email: '',
     //         phone: '',
+    //         country: '',
     //         location: '',
-    //         isSended: true
+    //         isSended: true,
+    //         redirect: true
     //       });
     //       window.location.assign(process.env.PUBLIC_URL + '/gracias');
     //     }
@@ -77,10 +81,16 @@ class Form extends Component {
 
   render() {
     // const isSending = this.state.isSending;
+    const { redirect } = this.state;
+
+    if (redirect) {
+      return <Redirect to='/gracias' />;
+    }
+
     return (
       <section className='form'>
         <div className='container'>
-          <h2>Solicita más información</h2>
+          <h2>Solicitá más información</h2>
 
           <form action='' onSubmit={this.handleSubmit}>
             <div className='row justify-content-center'>
@@ -92,7 +102,7 @@ class Form extends Component {
                       <input
                         type='text'
                         name='fname'
-                        className='form-control'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>
@@ -103,7 +113,7 @@ class Form extends Component {
                       <input
                         type='text'
                         name='lname'
-                        className='form-control'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>
@@ -114,9 +124,9 @@ class Form extends Component {
                     <div className='form-group'>
                       <label htmlFor=''>Email</label>
                       <input
-                        type='text'
-                        name='fname'
-                        className='form-control'
+                        type='email'
+                        name='email'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>
@@ -126,8 +136,8 @@ class Form extends Component {
                       <label htmlFor=''>Teléfono</label>
                       <input
                         type='text'
-                        name='lname'
-                        className='form-control'
+                        name='phone'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>
@@ -139,8 +149,8 @@ class Form extends Component {
                       <label htmlFor=''>País</label>
                       <input
                         type='text'
-                        name='fname'
-                        className='form-control'
+                        name='country'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>
@@ -150,8 +160,8 @@ class Form extends Component {
                       <label htmlFor=''>Localidad</label>
                       <input
                         type='text'
-                        name='lname'
-                        className='form-control'
+                        name='location'
+                        className='form-control form-control-lg'
                         onChange={this.handleChange}
                       />
                     </div>

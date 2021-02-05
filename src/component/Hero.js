@@ -9,7 +9,7 @@ export default function Hero() {
           <div className='col-md-10'>
             <h1>
               Tu Cabaña, genética y productos en nuestra plataforma de ventas
-              online.
+              online
             </h1>
             <p className='lead'>
               Somos el Primer Mercado Online de Genética Bovina que te permitirá
