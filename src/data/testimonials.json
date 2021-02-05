@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "German Sayago 1",
+      "location": "Río Cuarto 1",
+      "content": "Encontré y pude comprar la genética que buscaba en el Mercado GenGanar 1"
+    },
+    {
+      "id": 2,
+      "name": "German Sayago 2",
+      "location": "Río Cuarto 2",
+      "content": "Encontré y pude comprar la genética que buscaba en el Mercado GenGanar 2"
+    },
+    {
+      "id": 3,
+      "name": "German Sayago 3",
+      "location": "Río Cuarto 3",
+      "content": "Encontré y pude comprar la genética que buscaba en el Mercado GenGanar 3"
+    }
+  ]
+}
