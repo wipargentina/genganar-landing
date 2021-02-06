@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as Scroll } from 'react-scroll';
 
 export default function Features() {
   return (
@@ -24,6 +25,16 @@ export default function Features() {
               acreditación del dinero de forma directa en la cuenta de la
               Cabaña.
             </p>
+            <Scroll
+              to='form'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={599}
+              className='btn btn-primary cta'
+            >
+              ¿Te contamos más?
+            </Scroll>
           </div>
         </article>
         <article className='row'>
@@ -55,6 +66,16 @@ export default function Features() {
                 de usuarios.
               </li>
             </ul>
+            <Scroll
+              to='form'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={599}
+              className='btn btn-primary cta'
+            >
+              ¿Querés saber más?
+            </Scroll>
           </div>
         </article>
       </div>

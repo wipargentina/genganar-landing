@@ -88,13 +88,17 @@ class Form extends Component {
     }
 
     return (
-      <section className='form'>
+      <section id='form' className='form'>
         <div className='container'>
-          <h2>Solicitá más información</h2>
+          <div className='row justify-content-center'>
+            <div className='col-md-8'>
+              <h2>Solicitá más información</h2>
+              <h5>
+                Completa el siguiente formulario para conocer más sobre el
+                servicio, nuestros planes y precios.
+              </h5>
 
-          <form action='' onSubmit={this.handleSubmit}>
-            <div className='row justify-content-center'>
-              <div className='col-md-8'>
+              <form action='' onSubmit={this.handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -190,29 +194,29 @@ class Form extends Component {
                           target='_blank'
                           rel='noopener noreferrer'
                         >
-                          ver políticas de privacidad
+                          Ver políticas de privacidad
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className='col-md-6'>
                     {this.state.policy ? (
-                      <button className='btn btn-lg btn-secondary text-uppercase cta'>
-                        Enviar
+                      <button className='btn btn-lg btn-warning text-uppercase cta'>
+                        Quiero más información
                       </button>
                     ) : (
                       <button
-                        className='btn btn-lg btn-secondary text-uppercase cta'
+                        className='btn btn-lg btn-warning text-uppercase cta'
                         disabled
                       >
-                        Enviar
+                        Quiero más información
                       </button>
                     )}
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </section>
     );
