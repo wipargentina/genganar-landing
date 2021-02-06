@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as Scroll } from 'react-scroll';
 
 export default function Hero() {
   return (
@@ -15,9 +16,16 @@ export default function Hero() {
               Somos el Primer Mercado Online de Genética Bovina que te permitirá
               comercializar y promocionar tu cabaña de manera fácil y segura.
             </p>
-            <button className='btn btn-lg btn-primary text-uppercase cta'>
-              Conocer más
-            </button>
+            <Scroll
+              to='form'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={599}
+              className='btn btn-lg btn-primary text-uppercase cta'
+            >
+              Más información
+            </Scroll>
           </div>
         </div>
       </div>
