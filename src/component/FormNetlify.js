@@ -134,7 +134,7 @@ class Form extends Component {
                 <div className='row mb-3'>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label htmlFor=''>Provincia</label>
+                      <label htmlFor=''>Provincia/Estado</label>
                       <input
                         type='text'
                         name='state'
