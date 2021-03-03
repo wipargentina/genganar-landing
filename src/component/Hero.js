@@ -13,7 +13,7 @@ export default function Hero() {
               online
             </h1>
             <p className='lead'>
-              Somos el Primer Mercado Online de Genética Bovina que te permitirá
+              Somos el 1° Mercado Online de Genética Bovina que te permitirá
               comercializar y promocionar tu cabaña de manera fácil y segura.
             </p>
             <Scroll

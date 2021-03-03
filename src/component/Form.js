@@ -94,7 +94,7 @@ class Form extends Component {
             <div className='col-md-8'>
               <h2>Solicitá más información</h2>
               <h5>
-                Completa el siguiente formulario para conocer más sobre el
+                Completá el siguiente formulario para conocer más sobre el
                 servicio, nuestros planes y precios.
               </h5>
 
@@ -150,7 +150,7 @@ class Form extends Component {
                 <div className='row mb-3'>
                   <div className='col-md-6'>
                     <div className='form-group'>
-                      <label htmlFor=''>País</label>
+                      <label htmlFor=''>Provincia/Estado</label>
                       <input
                         type='text'
                         name='country'

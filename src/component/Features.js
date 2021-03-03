@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link as Scroll } from 'react-scroll';
+import ImagenPropuesta from '../assets/static/te-proponemos.webp';
+import ImagenHacemos from '../assets/static/como-lo-hacemos.webp';
 
 export default function Features() {
   return (
@@ -9,21 +11,21 @@ export default function Features() {
           <div className='col-md-6 order-sm-2'>
             <img
               className='img-fluid mb-5 mb-sm-0'
-              src='https://blog.structuralia.com/hubfs/business-team-present-professional-investor-working-new-start-up-project-finance-managers_t20_rR7ryd%20%281%29%20%281%29.jpg'
+              src={ImagenPropuesta}
               alt=''
             />
           </div>
           <div className='col-md-6 order-sm-1'>
             <h2>Te proponemos</h2>
             <p>
-              Una gestión Comercial integral y Administrativa de cada operación,
-              facilitando y coordinando con vos la logística de entrega.
+              Una gestión Comercial y Administrativa de cada operación.
+              Facilitamos y coordinamos con vos la logística de entrega.
             </p>
             <p>
-              Financiación propia a los Compradores a través de medios de pago
-              electrónicos y seguros, nuestra pasarela de pagos permite la
-              acreditación del dinero de forma directa en la cuenta de la
-              Cabaña.
+              Brindamos financiación propia a los Compradores a través de medios
+              de pago electrónicos y seguros. Nuestra pasarela de pagos permite
+              la acreditación del dinero de forma directa en la cuenta bancaria
+              de la Cabaña
             </p>
             <Scroll
               to='form'
@@ -41,7 +43,7 @@ export default function Features() {
           <div className='col-md-6'>
             <img
               className='img-fluid mb-5 mb-sm-0'
-              src='https://blog.structuralia.com/hubfs/business-team-present-professional-investor-working-new-start-up-project-finance-managers_t20_rR7ryd%20%281%29%20%281%29.jpg'
+              src={ImagenHacemos}
               alt=''
             />
           </div>
