@@ -19,6 +19,7 @@ export default function Testimonials() {
         >
           {testimonials.map((testimonial, index) => (
             <div key={index}>
+              <img src={testimonial.imgUrl} alt='' />
               <h3>{testimonial.name}</h3>
               <h4>{testimonial.location}</h4>
               <p>{testimonial.content}</p>
