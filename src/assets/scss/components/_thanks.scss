@@ -3,4 +3,16 @@
   h1 {
     font-weight: 600;
   }
+
+  .button-social {
+    margin: 4px;
+    span {
+      display: flex;
+      align-items: center;
+      ion-icon {
+        margin-right: 4px;
+        margin-bottom: 2px;
+      }
+    }
+  }
 }

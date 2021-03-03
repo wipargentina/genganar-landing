@@ -7,7 +7,7 @@ import Tanks from '../pages/Tanks';
 import TagManager from 'react-gtm-module';
 
 const tagManagerArgs = {
-  gtmId: 'GTM-5L7D3XR'
+  gtmId: 'GTM-KN2HC78'
 };
 
 TagManager.initialize(tagManagerArgs);
