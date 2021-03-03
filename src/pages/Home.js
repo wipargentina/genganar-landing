@@ -3,7 +3,8 @@ import Hero from '../component/Hero';
 import Benefits from '../component/Benefits';
 import Features from '../component/Features';
 import Testimonials from '../component/Testimonials';
-import Form from '../component/Form';
+// import Form from '../component/Form';
+import FormNetlify from '../component/FormNetlify';
 
 export default function home() {
   return (
@@ -12,7 +13,8 @@ export default function home() {
       <Benefits />
       <Features />
       <Testimonials />
-      <Form />
+      {/* <Form /> */}
+      <FormNetlify />
     </>
   );
 }
