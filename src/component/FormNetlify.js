@@ -17,6 +17,7 @@ class Form extends Component {
       phone: '',
       state: '',
       location: '',
+      tag: 'cabañero',
       policy: '',
       isSending: false,
       redirect: false
@@ -57,11 +58,14 @@ class Form extends Component {
       })
       .catch((error) => alert(error));
 
+    console.log(this.state);
+
     e.preventDefault();
   }
 
   render() {
     const { redirect } = this.state;
+    const isSending = this.state.isSending;
 
     if (redirect) {
       return <Redirect to='/gracias' />;
@@ -199,6 +203,7 @@ class Form extends Component {
                       </button>
                     )}
                   </div>
+                  {isSending ? 'enviando' : ''}
                 </div>
               </form>
             </div>
