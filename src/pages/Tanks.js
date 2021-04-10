@@ -14,11 +14,12 @@ export default function tanks() {
               <h1>Gracias por completar el formulario</h1>
               <p className='lead mb-4'>
                 Uno de nuestros comerciales se pondrán en contacto contigo para
-                brindarte más información sobre nuestra plataforma y ayudarte en
-                lo que necesites.
+                brindarte más información sobre nuestra plataforma y asesorarte
+                en lo que necesites.
               </p>
               <p className='lead mb-3'>Conocé nuestro Mercado Online</p>
               <a
+                id='btn-marketplace'
                 href='https://mercado.genganar.com/es/?utm_source=landing&utm_medium=link&utm_campaign=landing_sumate_gracias'
                 rel='noopener noreferrer'
                 target='_blank'
@@ -27,17 +28,21 @@ export default function tanks() {
                 Ir al Mercado GenGanar
               </a>
               <p className='mb-3'>
-                Ademas ponemos a tu disposición un documento PDF para descargar
+                Además ponemos a tu disposición más información en un documento
+                PDF para que descargues
               </p>
               <a
-                href='https://mercado.genganar.com'
+                id='btn-download-brochure'
+                href='https://drive.google.com/file/d/1oy93RQr89RO62USoD1RmVfRvne2ZaBAa/view?usp=sharing'
                 rel='noopener noreferrer'
                 target='_blank'
                 className='button btn btn-lg btn-secondary mb-5'
               >
                 Descargar Brochure
               </a>
-              <p className='mb-3'>Seguinos en nuestras redes</p>
+              <p className='mb-3'>
+                Te invitamos a que nos sigas en nuestras redes
+              </p>
               <a
                 id='btn-facebook'
                 href='https://www.facebook.com/gen.ganar/'
@@ -63,7 +68,7 @@ export default function tanks() {
                 </span>
               </a>
               <a
-                id='btn-Twitter'
+                id='btn-twitter'
                 href='https://twitter.com/genganar'
                 rel='noopener noreferrer'
                 target='_blank'
