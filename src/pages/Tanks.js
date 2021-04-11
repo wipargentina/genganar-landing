@@ -48,7 +48,7 @@ export default function tanks() {
                 href='https://www.facebook.com/gen.ganar/'
                 rel='noopener noreferrer'
                 target='_blank'
-                className='social btn btn-outline-primary'
+                className='button social btn btn-outline-primary'
               >
                 <span>
                   <ion-icon name='logo-facebook'></ion-icon>
@@ -60,7 +60,7 @@ export default function tanks() {
                 href='https://www.instagram.com/gen.ganar/'
                 rel='noopener noreferrer'
                 target='_blank'
-                className='social btn btn-outline-primary'
+                className='button social btn btn-outline-primary'
               >
                 <span>
                   <ion-icon name='logo-instagram'></ion-icon>
@@ -72,7 +72,7 @@ export default function tanks() {
                 href='https://twitter.com/genganar'
                 rel='noopener noreferrer'
                 target='_blank'
-                className='social btn btn-outline-primary'
+                className='button social btn btn-outline-primary'
               >
                 <span>
                   <ion-icon name='logo-twitter'></ion-icon>
@@ -84,7 +84,7 @@ export default function tanks() {
                 href='https://www.linkedin.com/company/genganar'
                 rel='noopener noreferrer'
                 target='_blank'
-                className='social btn btn-outline-primary'
+                className='button social btn btn-outline-primary'
               >
                 <span>
                   <ion-icon name='logo-linkedin'></ion-icon>
@@ -96,7 +96,7 @@ export default function tanks() {
                 href='https://www.youtube.com/channel/UCGnKuYUA6ZKxamKvN07WCpw'
                 rel='noopener noreferrer'
                 target='_blank'
-                className='social btn btn-outline-primary'
+                className='button social btn btn-outline-primary'
               >
                 <span>
                   <ion-icon name='logo-youtube'></ion-icon>
