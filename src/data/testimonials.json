@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Juan Manuel Romero",
+      "location": "Cabaña La Soñada (Ranchos, Prov. Bs As)",
+      "content": "Encontré y pude comprar la genética que buscaba en el Mercado GenGanar",
+      "imgUrl": "/testimonials/juan-manuel-romero.webp"
+    },
+    {
+      "id": 2,
+      "name": "Gonzalo Camusso",
+      "location": "Cabaña Los Camu (Chañar Ladeado, Santa Fe)",
+      "content": "Aproveché la oportunidad de adquirir buena genética a muy buen precio, con las facilidades de pago de la pasarela",
+      "imgUrl": "/testimonials/gonzalo-camusso.webp"
+    },
+    {
+      "id": 3,
+      "name": "Fabián Lattanzi",
+      "location": "(Clason, Santa Fe)",
+      "content": "Me asesoraron e informaron para elegir lo que necesitaba, y me dieron facilidades en la compra y entrega de los embriones",
+      "imgUrl": "/testimonials/fabian-lattanzi.webp"
+    },
+    {
+      "id": 4,
+      "name": "M.V. Mariano Cucchietti",
+      "location": "(Noetinger, Córdoba)",
+      "content": "Me resulta de mucha utilidad para buscar y adquirir fácilmente la genética que necesitan los campos en los que trabajo",
+      "imgUrl": "/testimonials/mariano-cuchietti.webp"
+    },
+    {
+      "id": 5,
+      "name": "Gabriel Magro",
+      "location": "(Navarro, Prov. Bs As)",
+      "content": "Recibí muy buena atención, tanto por mail como telefónica, y me facilitaron los contactos y servicios de los transferencistas",
+      "imgUrl": "/testimonials/gabriel-magro.webp"
+    },
+    {
+      "id": 6,
+      "name": "M.V. Ignacio Mujica",
+      "location": "(Urdinarrain, Entre Ríos)",
+      "content": "Encuentro en GenGanar una buena oportunidad para comprar y vender genética, asegurando los pagos de forma automática",
+      "imgUrl": "/testimonials/ignacio-mujica.webp"
+    }
+  ]
+}

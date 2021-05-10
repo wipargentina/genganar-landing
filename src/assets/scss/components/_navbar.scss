@@ -1,0 +1,12 @@
+.navbar {
+  .navbar-brand {
+    img {
+      height: 84px;
+    }
+    @media screen and (max-width: 767px) {
+      img {
+        height: 60px;
+      }
+    }
+  }
+}
