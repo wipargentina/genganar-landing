@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from '../component/Layout';
 import Home from '../pages/Home';
 import NotFound from '../pages/NotFound';
-import Tanks from '../pages/Tanks';
+import Thanks from '../pages/Thanks';
 
 import TagManager from 'react-gtm-module';
 
@@ -21,7 +21,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path='/gracias'>
-            <Tanks />
+            <Thanks />
           </Route>
           <Route path='*'>
             <NotFound />

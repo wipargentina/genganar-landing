@@ -7,7 +7,7 @@ import Testimonials from '../component/Testimonials';
 import FormNetlify from '../component/FormNetlify';
 import { Helmet } from 'react-helmet';
 
-export default function home() {
+export default function Home() {
   return (
     <>
       <Helmet>

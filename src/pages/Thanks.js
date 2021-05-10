@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-export default function tanks() {
+export default function Thanks() {
   return (
     <>
       <Helmet>
@@ -33,7 +33,7 @@ export default function tanks() {
               </p>
               <a
                 id='btn-download-brochure'
-                href='https://drive.google.com/file/d/1oy93RQr89RO62USoD1RmVfRvne2ZaBAa/view?usp=sharing'
+                href='https://drive.google.com/file/d/1FTrunNtM53wiaelFW52aWQmsxsDfqih7/view?usp=sharing'
                 rel='noopener noreferrer'
                 target='_blank'
                 className='button btn btn-lg btn-secondary mb-5'
