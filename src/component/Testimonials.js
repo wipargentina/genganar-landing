@@ -8,7 +8,7 @@ export default function Testimonials() {
   return (
     <section className='testimonials'>
       <div className='container'>
-        <h2>Que opinan nuestros clientes</h2>
+        <h2>Qué opinan nuestros clientes</h2>
         <Carousel
           showArrows={false}
           infiniteLoop={true}

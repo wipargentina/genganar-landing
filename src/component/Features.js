@@ -63,10 +63,6 @@ export default function Features() {
                 Ofrecemos nuestro Servicio Integral de Comercio Exterior
                 (Pedidos, Cotizaciones y Documentación)
               </li>
-              <li>
-                Entregamos un reporte trimestral de visitas, consultas y pedidos
-                de usuarios.
-              </li>
             </ul>
             <Scroll
               to='form'
